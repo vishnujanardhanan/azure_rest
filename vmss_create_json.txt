@@ -1,74 +1,62 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2759
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Monaco;}
-{\colortbl;\red255\green255\blue255;\red255\green255\blue255;\red0\green0\blue0;\red144\green1\blue18;
-\red9\green60\blue148;\red19\green118\blue70;}
-{\*\expandedcolortbl;;\cssrgb\c100000\c100000\c100000;\cssrgb\c0\c0\c0;\cssrgb\c63922\c8235\c8235;
-\cssrgb\c1569\c31765\c64706;\cssrgb\c3529\c52549\c34510;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
-\deftab720
-\pard\pardeftab720\partightenfactor0
-
-\f0\fs24 \cf0 \cb2 \expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec3 \{\cb1 \
-\cb2   \cf4 \strokec4 "sku"\cf0 \strokec3 : \{\cb1 \
-\cb2     \cf4 \strokec4 "tier"\cf0 \strokec3 : \cf5 \strokec5 "Standard"\cf0 \strokec3 ,\cb1 \
-\cb2     \cf4 \strokec4 "capacity"\cf0 \strokec3 : \cf6 \strokec6 1\cf0 \strokec3 ,\cb1 \
-\cb2     \cf4 \strokec4 "name"\cf0 \strokec3 : \cf5 \strokec5 "Standard_D1_v2"\cf0 \cb1 \strokec3 \
-\cb2   \},\cb1 \
-\cb2   \cf4 \strokec4 "properties"\cf0 \strokec3 : \{\cb1 \
-\cb2     \cf4 \strokec4 "overprovision"\cf0 \strokec3 : \cf5 \strokec5 true\cf0 \strokec3 ,\cb1 \
-\cb2     \cf4 \strokec4 "virtualMachineProfile"\cf0 \strokec3 : \{\cb1 \
-\cb2       \cf4 \strokec4 "storageProfile"\cf0 \strokec3 : \{\cb1 \
-\cb2         \cf4 \strokec4 "imageReference"\cf0 \strokec3 : \{\cb1 \
-\cb2           \cf4 \strokec4 "sku"\cf0 \strokec3 : \cf5 \strokec5 "22_04-lts-gen2"\cf0 \strokec3 ,\cb1 \
-\cb2           \cf4 \strokec4 "publisher"\cf0 \strokec3 : \cf5 \strokec5 "Canonical"\cf0 \strokec3 ,\cb1 \
-\cb2           \cf4 \strokec4 "version"\cf0 \strokec3 : \cf5 \strokec5 "latest"\cf0 \strokec3 ,\cb1 \
-\cb2           \cf4 \strokec4 "offer"\cf0 \strokec3 : \cf5 \strokec5 "0001-com-ubuntu-server-jammy"\cf0 \cb1 \strokec3 \
-\cb2         \},\cb1 \
-\cb2         \cf4 \strokec4 "osDisk"\cf0 \strokec3 : \{\cb1 \
-\cb2           \cf4 \strokec4 "caching"\cf0 \strokec3 : \cf5 \strokec5 "ReadWrite"\cf0 \strokec3 ,\cb1 \
-\cb2           \cf4 \strokec4 "managedDisk"\cf0 \strokec3 : \{\cb1 \
-\cb2             \cf4 \strokec4 "storageAccountType"\cf0 \strokec3 : \cf5 \strokec5 "Standard_LRS"\cf0 \cb1 \strokec3 \
-\cb2           \},\cb1 \
-\cb2           \cf4 \strokec4 "createOption"\cf0 \strokec3 : \cf5 \strokec5 "FromImage"\cf0 \cb1 \strokec3 \
-\cb2         \}\cb1 \
-\cb2       \},\cb1 \
-\cb2       \cf4 \strokec4 "osProfile"\cf0 \strokec3 : \{\cb1 \
-\cb2         \cf4 \strokec4 "computerNamePrefix"\cf0 \strokec3 : \cf5 \strokec5 "VMSSTest"\cf0 \strokec3 ,\cb1 \
-\cb2         \cf4 \strokec4 "adminUsername"\cf0 \strokec3 : \cf5 \strokec5 "dfdfsdsdfsdf"\cf0 \strokec3 ,\cb1 \
-\cb2         \cf4 \strokec4 "adminPassword"\cf0 \strokec3 : \cf5 \strokec5 "sdfsdsdfsdf"\cf0 \cb1 \strokec3 \
-\cb2       \},\cb1 \
-\cb2       \cf4 \strokec4 "networkProfile"\cf0 \strokec3 : \{\cb1 \
-\cb2         \cf4 \strokec4 "networkInterfaceConfigurations"\cf0 \strokec3 : [\cb1 \
-\cb2           \{\cb1 \
-\cb2             \cf4 \strokec4 "name"\cf0 \strokec3 : \cf5 \strokec5 "VMSSTest"\cf0 \strokec3 ,\cb1 \
-\cb2             \cf4 \strokec4 "properties"\cf0 \strokec3 : \{\cb1 \
-\cb2               \cf4 \strokec4 "primary"\cf0 \strokec3 : \cf5 \strokec5 true\cf0 \strokec3 ,\cb1 \
-\cb2               \cf4 \strokec4 "enableIPForwarding"\cf0 \strokec3 : \cf5 \strokec5 true\cf0 \strokec3 ,\cb1 \
-\cb2               \cf4 \strokec4 "ipConfigurations"\cf0 \strokec3 : [\cb1 \
-\cb2                 \{\cb1 \
-\cb2                   \cf4 \strokec4 "name"\cf0 \strokec3 : \cf5 \strokec5 "VMSSTest"\cf0 \strokec3 ,\cb1 \
-\cb2                   \cf4 \strokec4 "properties"\cf0 \strokec3 : \{\cb1 \
-\cb2                     \cf4 \strokec4 "subnet"\cf0 \strokec3 : \{\cb1 \
-\cb2                       \cf4 \strokec4 "id"\cf0 \strokec3 : \cf5 \strokec5 "/subscriptions/27aa44c1-e5bf-4311-ae55-1a56e08b8a37/resourceGroups/myResourceGroup/providers/Microsoft.Network/virtualNetworks/VMSSTest/subnets/VMSSTestSubnet"\cf0 \cb1 \strokec3 \
-\cb2                     \}\cb1 \
-\cb2                   \}\cb1 \
-\cb2                 \}\cb1 \
-\cb2               ]\cb1 \
-\cb2             \}\cb1 \
-\cb2           \}\cb1 \
-\cb2         ]\cb1 \
-\cb2       \}\cb1 \
-\cb2     \},\cb1 \
-\cb2     \cf4 \strokec4 "upgradePolicy"\cf0 \strokec3 : \{\cb1 \
-\cb2       \cf4 \strokec4 "mode"\cf0 \strokec3 : \cf5 \strokec5 "Manual"\cf0 \cb1 \strokec3 \
-\cb2     \}\cb1 \
-\cb2   \},\cb1 \
-\cb2   \cf4 \strokec4 "plan"\cf0 \strokec3 : \{\cb1 \
-\cb2     \cf4 \strokec4 "publisher"\cf0 \strokec3 : \cf5 \strokec5 "Canonical"\cf0 \strokec3 ,\cb1 \
-\cb2     \cf4 \strokec4 "product"\cf0 \strokec3 : \cf5 \strokec5 "test-vm"\cf0 \strokec3 ,\cb1 \
-\cb2     \cf4 \strokec4 "name"\cf0 \strokec3 : \cf5 \strokec5 "22_04-lts-gen2"\cf0 \cb1 \strokec3 \
-\cb2   \},\cb1 \
-\cb2   \cf4 \strokec4 "location"\cf0 \strokec3 : \cf5 \strokec5 "southindia"\cf0 \cb1 \strokec3 \
-\cb2 \}\cb1 \
+{
+    "sku": {
+        "tier": "Standard",
+        "capacity": 1,
+        "name": "Standard_D1_v2"
+    },
+    "properties": {
+        "overprovision": true,
+        "virtualMachineProfile": {
+            "storageProfile": {
+                "imageReference": {
+                    "sku": "22_04-lts-gen2",
+                    "publisher": "Canonical",
+                    "version": "latest",
+                    "offer": "0001-com-ubuntu-server-jammy"
+                },
+                "osDisk": {
+                    "caching": "ReadWrite",
+                    "managedDisk": {
+                        "storageAccountType": "Standard_LRS"
+                    },
+                    "createOption": "FromImage"
+                }
+            },
+            "osProfile": {
+                "computerNamePrefix": "VMSSTest",
+                "adminUsername": "dfdfsdsdfsdf",
+                "adminPassword": "sdfsdsdfsdf"
+            },
+            "networkProfile": {
+                "networkInterfaceConfigurations": [
+                    {
+                        "name": "VMSSTest",
+                        "properties": {
+                            "primary": true,
+                            "enableIPForwarding": true,
+                            "ipConfigurations": [
+                                {
+                                    "name": "VMSSTest",
+                                    "properties": {
+                                        "subnet": {
+                                            "id": "/subscriptions/27aa44c1-e5bf-4311-ae55-1a56e08b8a37/resourceGroups/myResourceGroup/providers/Microsoft.Network/virtualNetworks/VMSSTest/subnets/VMSSTestSubnet"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        "upgradePolicy": {
+            "mode": "Manual"
+        }
+    },
+    "plan": {
+        "publisher": "Canonical",
+        "product": "test-vm",
+        "name": "22_04-lts-gen2"
+    },
+    "location": "southindia"
 }

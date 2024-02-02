@@ -39,7 +39,7 @@
                                     "name": "VMSSTest",
                                     "properties": {
                                         "subnet": {
-                                            "id": "/subscriptions/27aa44c1-e5bf-4311-ae55-1a56e08b8a37/resourceGroups/myResourceGroup/providers/Microsoft.Network/virtualNetworks/VMSSTest/subnets/VMSSTestSubnet"
+                                            "id": "/subscriptions/27aa44c1-e5bf-4311-ae55-1a56e08b8a37/resourceGroups/AzureRESTResourceGroup/providers/Microsoft.Network/virtualNetworks/VMSSTest/subnets/VMSSTestSubnet"
                                         }
                                     }
                                 }

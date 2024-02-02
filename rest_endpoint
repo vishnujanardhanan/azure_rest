@@ -1,0 +1,1 @@
+https://management.azure.com/subscriptions/27aa44c1-e5bf-4311-ae55-1a56e08b8a37/resourceGroups/AzureRESTResourceGroup/providers/Microsoft.Compute/virtualMachineScaleSets/VMSSTest?api-version=2023-09-01&resourceGroupName=AzureRESTResourceGroup&subscriptionId=27aa44c1-e5bf-4311-ae55-1a56e08b8a37&vmScaleSetName=VMSSTest

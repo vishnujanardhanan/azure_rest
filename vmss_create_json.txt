@@ -2,7 +2,7 @@
     "sku": {
         "tier": "Standard",
         "capacity": 1,
-        "name": "Standard_D1_v2"
+        "name": "Standard_F1s"
     },
     "properties": {
         "overprovision": true,
@@ -24,8 +24,8 @@
             },
             "osProfile": {
                 "computerNamePrefix": "VMSSTest",
-                "adminUsername": "dfdfsdsdfsdf",
-                "adminPassword": "sdfsdsdfsdf"
+                "adminUsername": "Admin@123",
+                "adminPassword": "Admin@123"
             },
             "networkProfile": {
                 "networkInterfaceConfigurations": [
@@ -52,11 +52,6 @@
         "upgradePolicy": {
             "mode": "Manual"
         }
-    },
-    "plan": {
-        "publisher": "Canonical",
-        "product": "test-vm",
-        "name": "22_04-lts-gen2"
     },
     "location": "southindia"
 }
